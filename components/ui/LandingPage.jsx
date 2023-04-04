@@ -258,12 +258,6 @@ export default function LandingPage() {
 								>
 									Get started
 								</a>
-								<a
-									href="#"
-									className="text-sm font-semibold leading-6 text-white"
-								>
-									Live demo <span aria-hidden="true">→</span>
-								</a>
 							</div>
 						</div>
 						<div className="flex max-w-2xl mx-auto mt-16 sm:mt-24 lg:ml-10 lg:mr-0 lg:mt-0 lg:max-w-none lg:flex-none xl:ml-32">
