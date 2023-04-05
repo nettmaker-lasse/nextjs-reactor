@@ -5,6 +5,8 @@ import PreviewSuspense from '@/components/studio/PreviewSuspense';
 import PreviewBlogList from '@/components/studio/PreviewBlogList';
 import BlogList from '@/components/studio/BlogList';
 
+export const revalidate = 60; // revalidate this page every 60 seconds
+
 const query = groq`
 	*[_type=='post'] {
 		...,
